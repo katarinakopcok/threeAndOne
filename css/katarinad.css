@@ -1,0 +1,135 @@
+/*INTRO*/
+#works {
+    background-color: white;
+    margin-top: 0;
+}
+#works h2{
+    margin: 40px 0 30px 0;
+    color: #0f0f0f;
+    text-align: center;
+}
+#works p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0 15px;
+}
+.works {
+    margin: 0 -15px;
+}
+.working h2 {
+    font-weight: 600;
+}
+.working p {
+    font-weight: 500;
+}
+.working p:last-child {
+    font-weight: 600;
+}
+.p4{
+    color: #B20000;
+    margin-bottom: 53px;
+}
+
+.first-row, .second-row{
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 0;
+}
+
+
+.img-holder img {
+    transition: all .7s;
+    -webkit-transition: all .7s;
+    -o-transition: all .7s;
+
+}
+.holder1 img:hover{
+    content:url("../img/divjak/armin-hov.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+
+}
+.holder2 img:hover{
+    content:url("../img/divjak/ceris-hov.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.holder3 img:hover{
+    content:url("../img/divjak/deadia-hov.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.holder4 img:hover{
+    content:url("../img/divjak/spirit-hov.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+.holder5 img:hover{
+    content:url("../img/divjak/pfs-n.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+.holder6 img:hover {
+    content: url("../img/divjak/karinghton-hover.jpg");
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+.future-project{
+    display: none;
+}
+
+
+/*SLIDER*/
+#myCarousel p{
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+.carousel-control {
+    display: none;
+}
+@media screen and (min-width:768px) {
+    #works{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1020px){
+    /*WORKS*/
+
+    .first-row{
+        width: 100%;
+    }
+    .second-row{
+        width: 100%;
+    }
+    .future-project{
+        display: block;
+    }
+
+
+
+
+}
+/*********************************************************
+                    clearfix
+*********************************************************/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

@@ -1,0 +1,152 @@
+/***************************************************************
+
+                        Specific styles
+***************************************************************/
+/* KONTAKT */
+
+.style2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: black;
+
+}
+
+.style3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#ask-us {
+    background-color: white;
+    height: 1000px;
+    margin-top: 10%;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: none;
+}
+
+
+#contact-form {
+    margin-top: 150px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#SenderName{
+    font-size: 20px;
+
+}
+#SenderEmail{
+    font-size: 20px;
+}
+#SenderMessage{
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 30px;
+    margin-top: 100px;
+    width: 200px;
+    height: 57px;
+    transition: all 0.4s;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+}
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    background-color: #B20000;
+    color: #fff;
+    border-color: transparent;
+    outline-color: #B20000;
+}
+.alert-success {
+    background-color: white;
+    color: #333333;
+    font-size: 23px;
+    text-align: center;
+    border-color: transparent;
+    margin-top: 200px;
+}
+
+/***********MAIN FOOTER************/
+
+.main-footer {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+
+}
+
+/**********************************/
+
+/***************************************************************
+
+                        Helper classes
+***************************************************************/
+/*xs*/
+@media (max-width: 768px) {
+
+    .btn{
+        margin-top: 50px;
+    }
+    #ask-us {
+        margin-top: 0;
+    }
+
+}
+
+/* sm */
+@media (min-width: 768px) {
+
+    #ask-us {
+        padding-right: 10px;
+        padding-left: 10px;
+        _width: 500px;
+    }
+   .btn{
+       margin-top: 10px;
+   }
+   #contact-form{
+       margin-top: 70px;
+   }
+}
+
+/* md */
+@media (min-width: 992px) {
+
+    #ask-us {
+        padding-right: 10px;
+        padding-left: 10px;
+        _width: 500px;
+    }
+
+}
+
+/* lg */
+@media (min-width: 1200px) {
+    #ask-us {
+        _margin-right: 10%;
+        _width: auto;
+    }
+}

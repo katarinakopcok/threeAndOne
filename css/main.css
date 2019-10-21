@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+/*********************************************
+                Global styles
+*********************************************/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cutive Mono', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #111;
+    background-color: #000000;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+}
+h3 {
+    font-size: 25px;
+}
+small {
+    font-size: 12px;
+}
+.logo {
+    height: 40px;
+}
+
+/**********************************************
+                  Layout
+**********************************************/
+
+/**********************************************
+               Specific styles
+**********************************************/
+
+.naslov1 {
+    font-size: 28px;
+    margin: 10px auto;
+    color: #0f0f0f;
+    text-align: center;
+    font-weight: 500;
+}
+#about-us {
+    background-color: white;
+    margin-top: 0;
+}
+.about h3 {
+    text-align: center;
+    margin: 30px 0 50px;
+    font-weight: 600;
+}
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.slika {
+    border-top: solid 1px #b20000;
+    padding-top: 60px;
+}
+.last-one {
+    border-bottom: solid 1px #b20000;
+    margin-bottom: 40px;
+}
+.slika1 img:hover {
+    content:url("../img/miroslav/kd-hover.jpg");
+}
+.slika2 img:hover {
+    content:url("../img/miroslav/kk-hover.jpg");
+}
+.slika3 img:hover {
+    content:url("../img/miroslav/mh-hover.jpg");
+}
+.slika4 img:hover {
+    content:url("../img/miroslav/mk-hover.jpg");
+}
+.portfolio-link {
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.link {
+    color: #111111;
+}
+.link:hover {
+    color: #b20000;
+    text-decoration: none;
+}
+.link:focus {
+    text-decoration: none;
+    color:#b20000;
+}
+
+/**********************************************
+               Helper classes
+**********************************************/
+@media (min-width: 550px) {
+    .logo {
+        height: 50px;
+    }
+    .naslov1 {
+        font-size: 28px;
+        margin: 35px auto;
+    }
+}
+@media (min-width: 768px) {
+    #about-us{
+        margin-top: 10%;
+    }
+    .logo {
+        height: 80px;
+    }
+    .naslov1 {
+        font-size: 35px;
+        margin: 50px auto;
+    }
+}
+@media (min-width: 992px) {
+    .naslov1 {
+        font-size: 40px;
+        margin: 60px auto;
+    }
+    .about p {
+        font-size: 22px;
+        padding-bottom: 50px;
+
+    }
+}
+@media (min-width: 1170px) {
+    .naslov1 {
+        font-size: 45px;
+        margin: 70px auto;
+    }
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
